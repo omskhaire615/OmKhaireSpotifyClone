@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify-Web Player:make by mr.Om Khaire..</title>
+    <link rel="icon" type="image/x-icon" href="https://www.logo.wine/a/logo/Spotify/Spotify-Icon-Logo.wine.svg">
+</head>
+<body>
+    <div class="body">
+        <div class="box1">
+            <div class="logo1">
+                <ul id="spotifylogo"><i class="fa-brands fa-spotify"></i> 
+                    <b>
+                        <a  id="spotifyname" href="#"><b>Spotify</b></a>
+                    </b>
+                </ul>
+                <ul>
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#"><b>Home</b></a>
+                </ul>
+                <ul id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a  href="https://open.spotify.com/search"><b>Search</b></a>
+                </ul>
+            </div>
+            <div class="logo2">
+               <ul id="lib">
+                <i class="fa-solid fa-bookmark"></i>
+                <a href="#"><b>Your Library</b></a>
+                <i id="add" class="fa-thin fa-plus"></i>
+                </ul> 
+                <div class="list">
+                    <p><b>Create your first playlist</b></p>
+                    <p id="sublist">It's easy we'll help you</p>
+                    <div id="playlistbtn"><b id="listtext">Create playlist</b></div>
+                </div>
+                <a id="coockis" href="#">coockis</a>
+                <div class="language"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-80q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-155.5t86-127Q252-817 325-848.5T480-880q83 0 155.5 31.5t127 86q54.5 54.5 86 127T880-480q0 82-31.5 155t-86 127.5q-54.5 54.5-127 86T480-80Zm0-82q26-36 45-75t31-83H404q12 44 31 83t45 75Zm-104-16q-18-33-31.5-68.5T322-320H204q29 50 72.5 87t99.5 55Zm208 0q56-18 99.5-55t72.5-87H638q-9 38-22.5 73.5T584-178ZM170-400h136q-3-20-4.5-39.5T300-480q0-21 1.5-40.5T306-560H170q-5 20-7.5 39.5T160-480q0 21 2.5 40.5T170-400Zm216 0h188q3-20 4.5-39.5T580-480q0-21-1.5-40.5T574-560H386q-3 20-4.5 39.5T380-480q0 21 1.5 40.5T386-400Zm268 0h136q5-20 7.5-39.5T800-480q0-21-2.5-40.5T790-560H654q3 20 4.5 39.5T660-480q0 21-1.5 40.5T654-400Zm-16-240h118q-29-50-72.5-87T584-782q18 33 31.5 68.5T638-640Zm-234 0h152q-12-44-31-83t-45-75q-26 36-45 75t-31 83Zm-200 0h118q9-38 22.5-73.5T376-782q-56 18-99.5 55T204-640Z"/></svg>English</div>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="nevbar">
+                <a href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F"><div class="login">Log in</div></a>
+                <a href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F"><div class="signup">Sign up</div></a>
+                <div class="arrow">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+                </div>
+            </div>
+            <div class="productbox">
+             <div class="pbox1">
+                <div class="pname">Popular Artist</div><br>
+                <div class="p" id="info1">
+                    <div class="circle" id="pic1">
+                    </div>
+                <p class="name">Pritam</p>
+                <p class="artist">Artist</p>
+                </div>
+                <div class="p" id="info2">
+                    <div class="circle" id="pic2"></div>
+                    <p class="name2">Arjit Sign</p>
+                    <p class="artist">Artist</p>
+                </div>
+                <div class="p" id="info3"><div class="circle" id="pic3"></div>
+                <p class="name3">A R Raman</p>
+                <p class="artist">Artist</p>
+                </div>
+                <div class="p" id="info4"><div class="circle" id="pic4"></div>
+                <p class="name4">Anirudh Ravichander</p>
+                <p class="artist">Artist</p>
+            </div>
+                <div class="p" id="info5"><div class="circle" id="pic5"></div>
+                <p class="name5">Vishal Mishra</p>
+                <p class="artist">Artist</p>
+            </div>
+             </div><div class="pbox2">
+                <div class="pname2">Popular Album</div><br>
+                <ul class="p">
+                    <div class="square" id="ppic11"></div>
+                    <p class="film11">Animal</p>
+                <p class="artist11">Manana Bharadvaj,Vishal
+                    <br> Mishra,Jani</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic12"></div>
+                    <p class="film12">Ek Tha Raja</p>
+                    <p class="artist12">Badshah</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic13"></div>
+                    <p class="film13">Still Rollin</p>
+                    <p class="artist13">suhabh</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic14"></div>
+                    <p class="film14">Ashiqui2</p>
+                    <p class="artist14">Mithoom,Ankit Tivari,<br>jeet gungooli</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic15"></div>
+                    <p class="film15">Moosetaep</p>
+                    <p class="artist15">Sidhu Moose Wala</p>
+                </ul>
+             </div>
+             <div class="pbox2">
+                <div class="pname3">Popular Radio</div><br>
+                <ul class="p">
+                    <div class="square" id="ppic21"></div>
+                    <p class="film21">Arjit Singh Radio</p>
+                    <p class="artist21">With Neha Kakkar, <br>Pritam,KK and more</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic22"></div>
+                    <p class="film22">Diljit Dosanjh Radio</p>
+                    <p class="artist22">With Garry Sandhu,<br>Ranjit Bawa,Amrinder</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic23"></div>
+                    <p class="film23">Llaiyaraaja Radio</p>
+                    <p class="artist23">With S.Janki,S.P<br>Balasubrahmanyam,P...</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic24"></div>
+                    <p class="film24">Udit Narayan Radio</p>
+                    <p class="artist24">With Kumar Sanu,Alka<br>Yagnik,Anuradha...</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic25"></div>
+                    <p class="film25">Kumar Sanu Radio</p>
+                    <p class="artist25">With Udit Narayan,Alka<br>Yagnik,Anuradha...</p>
+                </ul>
+             </div><div class="pbox2">
+                <div class="pname4">Fuctured Chart</div><br>
+                <ul class="p">
+                    <div class="square" id="ppic31"></div>
+                    <p class="film31">Top Songs - Global</p>
+                    <p class="artistall">You Weekly update of<br>the most played tracks...</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic32"></div>
+                    <p class="film32">Top Songs - USA</p>
+                    <p class="artistall">You Weekly update of<br>the most played tracks...</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic33"></div>
+                    <p class="film33">Top 50 - India</p>
+                    <p class="artistall">You Weekly update of<br>the most played tracks...</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic34"></div>
+                    <p class="film34">Top 50 - USA</p>
+                    <p class="artistall">You Weekly update of<br>the most played tracks...</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic35"></div>
+                    <p class="film35">Viral 50 - Global</p>
+                    <p class="artistall">You Weekly update of<br>the most played tracks...</p>
+                </ul>
+             </div>
+             <div class="pbox2">
+                <div class="pname5">Fuctured Playlist</div><br>
+                <ul class="p">
+                    <div class="square" id="ppic41"></div>
+                    <p class="film41">Lofi beats</p>
+                    <p class="artistall">You Weekly update of<br>the most played tracks...</p>
+                
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic42"></div>
+                    <p class="film42">Today's Top Hits</p>
+                    <p class="artistall">You Weekly update of<br>the most played tracks...</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic43"></div>
+                    <p class="film43">Chillout Lounge</p>
+                    <p class="artistall">You Weekly update of<br>the most played tracks...</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic44"></div>
+                    <p class="film44">All Out 2020s</p>
+                    <p class="artistall">You Weekly update of<br>the most played tracks...</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic45"></div>
+                    <p class="film45">Jazz in the...</p>
+                    <p class="artistall">You Weekly update of<br>the most played tracks...</p>
+                </ul>
+             </div>
+             <div class="pbox2">
+                <div class="pname6">Spotify original prodcast</div><br>
+                <ul class="p">
+                    <div class="square" id="ppic51"></div>
+                    <p class="film51">Shri Krishna Leela...</p>
+                    <p class="artistall1">Spotify studeo...</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic52"></div>
+                    <p class="film52">Pretkotha Bengali...</p>
+                    <p class="artistall1">Spotify studeo... </p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic53"></div>
+                    <p class="film53">The Joe Rogan...</p>
+                    <p class="artistall1">Spotify studeo...</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic54"></div>
+                    <p class="film54">True Story Bro! With..</p>
+                    <p class="artistall1">Spotify studeo...</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic55"></div>
+                    <p class="film55">Gopi Sudhakar...</p>
+                    <p class="artistall1">Spotify studeo...</p>
+                </ul>
+             </div>
+             <div class="pbox2">
+                <div class="pname7">Trending Episode</div><br>
+                <ul class="p">
+                    <div class="square" id="ppic61"></div>
+                    <p class="film61">Welcome back,RJ...</p>
+                    <p class="artistall1">Jun 2021 15min</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic62"></div>
+                    <p class="film62">#73:Hote; Of ...</p>
+                    <p class="artistall1">Jun 2021 93min</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic63"></div>
+                    <p class="film63">Anubis:God of...</p>
+                    <p class="artistall1">Jun 2021 16min</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic64"></div>
+                    <p class="film64">Mahabharata...</p>
+                    <p class="artistall1">Apr 2014 24min</p>
+                </ul>
+                <ul class="p">
+                    <div class="square" id="ppic65"></div>
+                    <p class="film65">Anubis:God of...</p>
+                    <p class="artistall1">Jun 2021 16min</p>
+                </ul>
+             </div>
+             <div class="pbox5"></div>
+             <div class="footer">
+              <div class="f1">
+                <p class="footername1">Company</p><br>
+                <p class="footersubname">
+                    <a href="#">About</a> <br><br>
+                    <a href="#">Jobs</a><br><br>
+                    <a href="#">For The Record</a><br></p>
+              </div>
+              <div class="f1">
+                <p class="footername1">Communities</p><br>
+                <p class="footersubname">
+                    <a href="#">For Artist</a> <br><br> 
+                    <a href="#">Devlopers</a><br><br>
+                    <a href="#"> Advertising</a> <br><br>
+                    <a href="#">Investors</a>  <br><br>
+                    <a href="#"> vendors</a></p>
+              </div>
+              <div class="f1">
+                <p class="footername1">Useful link</p><br>
+                <p class="footersubname">
+                   <a href="#">Support</a> <br><br>
+                   <a href="#">Free Mobie App</a> </p>
+              </div>
+              <div class="f1">
+                <p class="footername1">Spotify Plan</p><br>
+                <p class="footersubname">
+                     <a href="#">Primium Individual</a> <br><br>
+                     <a href="#">Primium duo</a> <br><br>
+                     <a href="#">Primium Family </a> <br><br>
+                     <a href="#">Primium Student</a>  <br><br>
+                     <a href="#"> Spotify Free</a></p>
+              </div>
+              <div class="f2">
+                <p class="footername2">
+                    <div class="endlogo">
+                        <a href="https://www.instagram.com/spotify"><i class="fa-brands fa-instagram"></i></a></div>
+                <div class="endlogo">
+                    <a href="https://x.com/spotify"><i class="fa-brands fa-twitter"></i></a></div>
+                <div class="endlogo">
+                    <a href="https://www.facebook.com/SpotifyIndia/?brand_redir=6243987495"><i class="fa-brands fa-facebook"></i></a></div></a>
+                </p><br>
+            </div><br><br>
+                <div class="line"></div>
+                <br><a href="#" class="endname"><i class="fa-brands fa-spotify"></i> 2024 Spotify AB</a></p>
+             </div>
+             <div class="pbox5"></div>
+            </div>
+        </div>
+        <div class="box3">
+            <div class="textbox">
+            <p id="text1">Preview of Spotify</p>
+            <p id="text2">Sign up to get unlimited songs and prodcasts with occasional ads.No ,credit card nedded</p>
+        </div>
+        <a id="link5" href="https://www.spotify.com/in-en/signup?forward_url=https%3A%2F%2Fopen.spotify.com%2F"><div class="signbox">Sign up free</div></a>
+        </div>
+    </div>
+</body>
+</html>
